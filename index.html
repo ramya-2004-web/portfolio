@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>Sri Ramya Devi</h1>
+    <p>IT Fresher | Quick Learner</p>
+
+    <button onclick="toggleTheme()">🌙 Toggle Theme</button>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+    <h2>About Me</h2>
+    <p>
+        Computer Science graduate looking for entry-level IT roles.
+        Basic knowledge in HTML, CSS, SQL and MS Office.
+    </p>
+</section>
+
+<section id="skills">
+    <h2>Skills</h2>
+    <ul>
+        <li>HTML & CSS</li>
+        <li>SQL Basics</li>
+        <li>MS Office</li>
+        <li>Communication Skills</li>
+    </ul>
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+
+    <form onsubmit="return validateForm()">
+        <input type="text" id="name" placeholder="Your Name"><br><br>
+        <input type="email" id="email" placeholder="Email"><br><br>
+        <button type="submit">Submit</button>
+    </form>
+
+</section>
+
+<footer>
+    <p>© 2026 Ramya</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
